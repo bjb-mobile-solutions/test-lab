@@ -1,26 +1,32 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import './App.css';
+import DeviceList from './components/devices/DeviceList';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Router basename={process.env.PUBLIC_URL}>
+        <div className="App">
+          <div className="App-header">
+            <h1>Julius Baer</h1>
+            <p>Test Lab</p>
+          </div>
+          <div className="App-content">
+            <Switch>
+              <Route exact path='/' component={DeviceList} />
+              <Route render={() =>
+                <div>
+                  <h1>Oops...</h1>
+                  <h2>Something went wrong :(</h2>
+                </div>
+              } />
+            </Switch>
+          </div>
+          <footer>version: 0.0.1 (beta)</footer>
+        </div>
+      </Router>
     );
   }
 }
