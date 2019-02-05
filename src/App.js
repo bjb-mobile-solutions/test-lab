@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import './App.css';
 import DeviceList from './components/devices/DeviceList';
+import logo from './images/juliusbaer-logo.svg';
 
 class App extends Component {
   render() {
@@ -10,7 +11,7 @@ class App extends Component {
       <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <div className="App-header">
-            <h1>Julius Baer</h1>
+          <img src={logo} className="Logo" alt="Julius Bär" />
             <p>Test Lab</p>
           </div>
           <div className="App-content">
