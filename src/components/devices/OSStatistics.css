@@ -3,8 +3,9 @@
 }
 
 .PieChart {
-    width: 30%;
+    width: 80%;
     margin: auto;
+    height: 400px;
 }
 
 .Table { 
