@@ -1,14 +1,14 @@
 {
-  "main.css": "/test-lab/static/css/main.3017f137.chunk.css",
-  "main.js": "/test-lab/static/js/main.23e5d953.chunk.js",
-  "main.js.map": "/test-lab/static/js/main.23e5d953.chunk.js.map",
-  "static/js/1.1705c053.chunk.js": "/test-lab/static/js/1.1705c053.chunk.js",
-  "static/js/1.1705c053.chunk.js.map": "/test-lab/static/js/1.1705c053.chunk.js.map",
+  "main.css": "/test-lab/static/css/main.d0777be9.chunk.css",
+  "main.js": "/test-lab/static/js/main.791e0b15.chunk.js",
+  "main.js.map": "/test-lab/static/js/main.791e0b15.chunk.js.map",
+  "static/js/1.61d239f4.chunk.js": "/test-lab/static/js/1.61d239f4.chunk.js",
+  "static/js/1.61d239f4.chunk.js.map": "/test-lab/static/js/1.61d239f4.chunk.js.map",
   "runtime~main.js": "/test-lab/static/js/runtime~main.bd521991.js",
   "runtime~main.js.map": "/test-lab/static/js/runtime~main.bd521991.js.map",
   "static/media/juliusbaer-logo.svg": "/test-lab/static/media/juliusbaer-logo.7ad68856.svg",
-  "static/css/main.3017f137.chunk.css.map": "/test-lab/static/css/main.3017f137.chunk.css.map",
+  "static/css/main.d0777be9.chunk.css.map": "/test-lab/static/css/main.d0777be9.chunk.css.map",
   "index.html": "/test-lab/index.html",
-  "precache-manifest.98bb3834c81202c3b71fc914d1a8bebb.js": "/test-lab/precache-manifest.98bb3834c81202c3b71fc914d1a8bebb.js",
+  "precache-manifest.1166913954a407d7609444c5a2439de4.js": "/test-lab/precache-manifest.1166913954a407d7609444c5a2439de4.js",
   "service-worker.js": "/test-lab/service-worker.js"
 }
